@@ -1,0 +1,118 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+input,label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #E60084
+}
+
+body{
+    padding-top: 5vh; /* view height -> 5% da tela */
+    background-image: url('../img/Polo\ Conceição.jpg');
+    background-size: cover;
+    background-position: -150%;
+}
+
+/* form */
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /*adaptada ao elemento root */  
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 25px;
+}
+
+input:focus{
+    border-color: orangered;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+/* validações */
+.erro-validation {
+    color:red;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
+
+#h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 1.2rem; 
+}

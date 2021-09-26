@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: Modelagem de dados :.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="h1">
+        <h1 id="titulo">Modelagem de dados</h1>
+    </div>
+    <div id="main-container">
+        <h2>Cadastro</h2>
+        <form id="register-form">
+            <div class="full-box">
+                <label for="CPF">CPF</label>
+                <input type="text" class="form-control" id="cpf_digitado" placeholder="Digite seu CPF" data-min-length="11">
+            </div>
+        <div class="half-box spacing">
+            <label for="name">Nome</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Digite seu Nome">
+        </div>
+        <div class="half-box spacing">
+            <label for="Sobre Nome">Sobre Nome</label>
+            <input type="text" name="Sobre Nome" id="Sobre Nome" placeholder="Digite seu Sobre Nome">
+        </div>         
+        <div class="full-box">
+            <label for="E-mail">E-mail</label>
+            <input type="text" name="e-mail" id="e-mail" placeholder="Digite seu E-mail ">
+        </div>
+        <div class="half-box spacing">
+            <label for="RG">RG</label>
+            <input type="text" name="RG" id="RG" placeholder="Digite seu RG">
+        </div>
+        <div class="half-box">
+            <label for="SEXO">Sexo</label>
+            <input type="text" name="SEXO" id="SEXO" placeholder="Digite a sua orientação sexual">
+        </div>
+        <div class="half-box spacing">
+            <label for="Telefone">Telefone Celular</label>
+            <input type="text" name="Telefone" id="Telefone" placeholder="Digite seu Telefone ">
+        </div>
+        <div class="full-box">
+            <label for="CEP">CEP</label>
+            <input type="text" name="CEP" id="CEP" placeholder="Digite CEP">
+        </div>
+        <div class="full-box">
+            <label for="Rua">Endereço</label>
+            <input type="text" name="Rua" id="Rua" placeholder="Digite o nome de sua rua">
+        </div>
+        <div class="half-box spacing">
+            <label for="numero">Numero</label>
+            <input type="text" name="numero" id="numero" placeholder="Qual o numero da sua casa?">
+        </div>
+        <div class="half-box spacing">
+            <label for="Bairro">Bairro</label>
+            <input type="text" name="Bairro" id="Bairro" placeholder="Qual é o nome Bairro?">
+        </div>
+        <div class="half-box spacing">
+            <label for="Cidade">Cidade</label>
+            <input type="text" name="Cidade" id="Cidade" placeholder="Digite o nome da Cidade">
+        </div>
+        <div class="half-box spacing">
+            <label for="Estado">Estado</label>
+            <input type="text" name="Estado" id="Estado" placeholder="Digite o nome da Estado">
+        </div>
+        <div class="half-box spacing">
+            <label for="Password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite uma senha">
+        </div>
+        <div class="half-box spacing">
+            <label for="Passconfirmation">Confirme sua senha</label>
+            <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha">
+        </div>
+        <div class="full-box">
+            <input type="Checkbox" name="agreement" id="agreement">
+            <label id="agreement" for="agreement">Eu li e aceito os <a href="#">Termos de uso</a></label>
+        </div>
+        <div class="full-box">
+            <input type="submit"id="btn-submit" value="Registrar">
+        </div>
+        <p class="error-validation template"></p>
+
+        </form>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
